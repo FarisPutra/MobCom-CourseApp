@@ -1,3 +1,24 @@
 <resources>
-    <string name="app_name">Course App</string>
+    <string name="app_name">Course List</string>
+
+    <string name="course_1_name">Bahasa Indonesia</string>
+    <string name="course_1_credits">2 SKS</string>
+    <string name="course_2_name">Bahasa Inggris</string>
+    <string name="course_2_credits">2 SKS</string>
+    <string name="course_3_name">Pendidikan Pancasila</string>
+    <string name="course_3_credits">2 SKS</string>
+    <string name="course_4_name">Olimpisme</string>
+    <string name="course_4_credits">1 SKS</string>
+    <string name="course_5_name">Statistika dan Probabilitas</string>
+    <string name="course_5_credits">3 SKS</string>
+    <string name="course_6_name">Kalkulus Diferensial</string>
+    <string name="course_6_credits">3 SKS</string>
+    <string name="course_7_name">Matematika Diskrit</string>
+    <string name="course_7_credits">3 SKS</string>
+    <string name="course_8_name">Dasar-Dasar Pemrograman</string>
+    <string name="course_8_credits">3 SKS</string>
+    <string name="course_9_name">Pengantar TIK</string>
+    <string name="course_9_credits">2 SKS</string>
+    <string name="course_10_name">Pendidikan Kewarganegaraan</string>
+    <string name="course_10_credits">2 SKS</string>
 </resources>
