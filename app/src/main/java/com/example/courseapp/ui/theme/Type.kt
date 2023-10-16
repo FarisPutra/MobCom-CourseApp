@@ -16,12 +16,12 @@ val Cabin = FontFamily(
 // Set of Material typography styles to start with
 val Typography = Typography(
     bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = Cabin,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
         lineHeight = 24.sp,
         letterSpacing = 0.5.sp
-    )
+    ),
     /* Other default text styles to override
     titleLarge = TextStyle(
         fontFamily = FontFamily.Default,
@@ -38,4 +38,19 @@ val Typography = Typography(
         letterSpacing = 0.5.sp
     )
     */
+    displaySmall = TextStyle(
+        fontFamily = Cabin,
+        fontWeight = FontWeight.Medium,
+        fontSize = 20.sp
+    ),
+    displayMedium = TextStyle(
+        fontFamily = Cabin,
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp
+    ),
+    displayLarge = TextStyle(
+        fontFamily = Cabin,
+        fontWeight = FontWeight.Normal,
+        fontSize = 30.sp
+    )
 )

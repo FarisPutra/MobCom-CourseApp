@@ -81,11 +81,13 @@ fun CourseGridItem(
             ) {
                 Text(
                     text = stringResource(id = course.nameRes),
+                    style = MaterialTheme.typography.displayMedium,
                     textAlign = TextAlign.Center,
                     modifier = Modifier.fillMaxWidth()
                 )
                 Text(
                     text = stringResource(id = course.creditsRes),
+                    style = MaterialTheme.typography.displaySmall,
                     textAlign = TextAlign.Center,
                     modifier = Modifier.fillMaxWidth()
                 )
@@ -160,7 +162,7 @@ fun CourseItemPreview() {
     }
 }
 
-@Preview
+@Preview("Courses Lazy Vertically Grid")
 @Composable
 fun CoursesLazyGridPreview() {
     CourseAppTheme {
